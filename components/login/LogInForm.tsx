@@ -2,7 +2,7 @@
 import LogInComponent from "./LogInComponent";
 import Image from "next/image";
 import React, { useState } from "react";
-// import { FaUser, FaLock } from "react-icons/fa";
+ import { FaUser, FaLock } from "react-icons/fa";
 
 const LogInForm = () => {
   const [isSignUp, setIsSignUp] = useState(false);
@@ -101,7 +101,7 @@ const LogInForm = () => {
                   placeholder="Enter your email"
                   className="border-none mx-2 rounded-md h-[39px] w-[480px]"
                 />
-                {/* <FaUser className="absolute right-4 top-1/2 transform -translate-y-1/2 cursor-pointer text-white w-[30px] h-[22px] mt-[15px] mr-[9px]" /> */}
+                <FaUser className="absolute right-4 top-1/2 transform -translate-y-1/2 cursor-pointer text-white w-[30px] h-[22px] mt-[15px] mr-[9px]" />
               </div>
             </div>
             <div className="my-2 p-3 relative">
@@ -112,7 +112,7 @@ const LogInForm = () => {
                   placeholder="Enter your password"
                   className="border-none mx-2 rounded-md h-[39px] w-[480px]"
                 />
-                {/* <FaLock className="absolute right-4 top-1/2 transform -translate-y-1/2 cursor-pointer text-white w-[30px] h-[22px] mt-[15px] mr-[9px]" /> */}
+                <FaLock className="absolute right-4 top-1/2 transform -translate-y-1/2 cursor-pointer text-white w-[30px] h-[22px] mt-[15px] mr-[9px]" />
               </div>
             </div>
           </>
